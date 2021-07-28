@@ -1,0 +1,22 @@
+.home::after{
+    content:"";
+    position: absolute;
+    width:100%;
+    background-image:url('https://creativechaos.co/wp-content/uploads/2018/04/home_header_1.jpg');
+    z-index: -1;
+    height:100vh;
+    top:0;
+    opacity: 1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+
+
+}
+.home{
+    position: relative;
+}
+
+.home>*{
+    z-index: 1;
+}
